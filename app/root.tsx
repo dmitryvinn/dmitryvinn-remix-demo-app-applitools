@@ -1,6 +1,4 @@
-import {
-  Outlet,
-} from "remix";
+import { Outlet } from "remix";
 import type { LinksFunction } from "remix";
 
 import deleteMeRemixStyles from "~/styles/demos/remix.css";
