@@ -7,8 +7,8 @@ This blogging app is a basic example of a Remix app using the Remix App Server. 
 From your terminal:
 
 ```sh
-yarn
-yarn dev
+npm install
+npm run dev
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
@@ -18,13 +18,13 @@ This starts your app in development mode, rebuilding assets on file changes.
 First, build your app for production:
 
 ```sh
-yarn build
+npm run build
 ```
 
 Then run the app in production mode:
 
 ```sh
-yarn start
+npm start
 ```
 
 ## Testing Locally
@@ -36,13 +36,13 @@ After you start your application, you can begin running the Cypress test suite.
 To run all non-Applitools tests, you can simply call:
 
 ```sh
-yarn test
+npm test
 ```
 
 or if you'd like to see your tests in the [Cypress Studio](https://docs.cypress.io/guides/core-concepts/cypress-studio#Overview), run the following:
 
 ```sh
-yarn cypress-open
+npm run cypress-open
 ```
 
 **Note:** To successfully run Applitools tests, you need to provide `APPLITOOLS_API_KEY` in either your `applitools.config.js` or your cli like `APPLITOOLS_API_KEY="[Your API Key]" npm test`. You can read more about this step in this article [LINK NEW ARTICLE].
