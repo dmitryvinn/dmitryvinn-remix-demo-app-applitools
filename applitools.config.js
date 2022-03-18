@@ -10,7 +10,7 @@ module.exports = {
     { width: 800, height: 600, name: "safari" },
     // Add mobile emulation devices in Portrait mode
     { deviceName: "iPhone X", screenOrientation: "portrait" },
-    { deviceName: "Pixel 2", screenOrientation: "portrait" },
+    { deviceName: "Pixel 2", screenOrientation: "landscape" },
   ],
   // set batch name to the configuration
   batchName: "Remix Demo App",

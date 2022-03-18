@@ -46,3 +46,17 @@ npm run cypress-open
 ```
 
 **Note:** To successfully run Applitools tests, you need to provide `APPLITOOLS_API_KEY` in either your `applitools.config.js` or your cli like `APPLITOOLS_API_KEY="[Your API Key]" npm test`. You can read more about this step in this article [LINK NEW ARTICLE].
+
+
+```
+module.exports = {
+  testConcurrency: 1,
+  apiKey: "NOT_SHARING_MY_APPLITOOLS_API_KEY",
+  browser: [
+    // Add browsers with different viewports
+    { width: 800, height: 600, name: "chrome" },
+  ],
+  // set batch name to the configuration
+  batchName: "Remix Demo App",
+};
+```

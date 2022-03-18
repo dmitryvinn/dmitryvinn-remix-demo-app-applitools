@@ -24,7 +24,7 @@ describe("Actions page form", () => {
     cy.get(".remix-app__main-content").contains("You got it right!");
   });
 
-  it("Visually confirms action form", () => {
+  it("Visually confirms action form renders", () => {
     // Arrange
     cy.visit("http://localhost:3000/demos/actions");
 
@@ -39,6 +39,5 @@ describe("Actions page form", () => {
 
     // Cleanup
     cy.eyesClose();
-    cy.reload();
   });
 });
