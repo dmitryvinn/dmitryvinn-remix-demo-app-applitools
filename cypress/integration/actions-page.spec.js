@@ -30,7 +30,7 @@ describe("Actions page form", () => {
 
     // Act
     cy.eyesOpen({
-      appName: "Remi Demo App",
+      appName: "Remix Demo App",
       testName: "Validate Action Form",
     });
 
@@ -39,5 +39,6 @@ describe("Actions page form", () => {
 
     // Cleanup
     cy.eyesClose();
+    cy.reload();
   });
 });
